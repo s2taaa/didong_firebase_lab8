@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="359dp"
+        android:layout_height="175dp"
+        android:layout_marginBottom="4dp"
+        android:background="@drawable/home1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnDKhome"
+        android:layout_width="209dp"
+        android:layout_height="36dp"
+        android:layout_marginBottom="72dp"
+        android:background="@drawable/buttonpink"
+        android:text="Register"
+        app:layout_constraintBottom_toBottomOf="@+id/view"
+        app:layout_constraintEnd_toEndOf="@+id/view"
+        app:layout_constraintStart_toStartOf="@+id/view" />
+
+    <Button
+        android:id="@+id/btnDNhome"
+        android:layout_width="221dp"
+        android:layout_height="43dp"
+        android:layout_marginBottom="48dp"
+        android:background="@drawable/buttonpink"
+        android:text="Login"
+        app:layout_constraintBottom_toTopOf="@+id/btnDKhome"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="@+id/view" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="124dp"
+        android:layout_height="102dp"
+        android:layout_marginStart="188dp"
+        android:layout_marginBottom="188dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnDNhome"
+        app:layout_constraintStart_toStartOf="@+id/imageView15"
+        app:srcCompat="@drawable/_" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="105dp"
+        android:layout_height="120dp"
+        android:layout_marginEnd="104dp"
+        android:layout_marginBottom="88dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnDNhome"
+        app:layout_constraintEnd_toStartOf="@+id/imageView16"
+        app:srcCompat="@drawable/matbun1" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="110dp"
+        android:layout_height="101dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="36dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnDNhome"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView14"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/matbun2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

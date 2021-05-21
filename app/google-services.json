@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "17688545344",
+    "project_id": "didonglab",
+    "storage_bucket": "didonglab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:17688545344:android:80aaf0bd480aa541e537a5",
+        "android_client_info": {
+          "package_name": "com.example.firebaselab8"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "17688545344-t89ntb7rjklu84doc86t5p2qj6rn66cm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAev4xMswH1VJ1I8lNHf27MFY7k-P06_gI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "17688545344-t89ntb7rjklu84doc86t5p2qj6rn66cm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
