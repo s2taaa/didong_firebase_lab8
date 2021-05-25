@@ -33,6 +33,8 @@ apply plugin: 'com.google.gms.google-services'
 dependencies {
     implementation platform('com.google.firebase:firebase-bom:28.0.1')
     implementation 'com.google.firebase:firebase-analytics'
+    compile "com.google.firebase:firebase-auth:9.0.2"
+    implementation 'com.google.firebase:firebase-database'
 
     implementation 'androidx.appcompat:appcompat:1.3.0'
     implementation 'com.google.android.material:material:1.3.0'

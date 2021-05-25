@@ -13,14 +13,14 @@
         android:background="@drawable/buttonpink"
         android:text="Login"
         app:layout_constraintBottom_toTopOf="@+id/textView4"
-        app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName2"
-        app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName2" />
+        app:layout_constraintEnd_toEndOf="@+id/signinPassword"
+        app:layout_constraintStart_toStartOf="@+id/signinPassword" />
 
     <ImageView
         android:id="@+id/imageView6"
         android:layout_width="107dp"
         android:layout_height="99dp"
-        android:layout_marginEnd="64dp"
+        android:layout_marginEnd="88dp"
         android:layout_marginBottom="20dp"
         app:layout_constraintBottom_toBottomOf="@+id/imageView5"
         app:layout_constraintEnd_toStartOf="@+id/imageView5"
@@ -30,13 +30,13 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="109dp"
-        android:layout_height="93dp"
+        android:layout_width="119dp"
+        android:layout_height="99dp"
         android:layout_marginEnd="32dp"
-        android:layout_marginBottom="16dp"
+        android:layout_marginBottom="44dp"
         app:layout_constraintBottom_toTopOf="@+id/imageView5"
         app:layout_constraintEnd_toEndOf="@+id/imageView5"
-        app:layout_constraintHorizontal_bias="0.993"
+        app:layout_constraintHorizontal_bias="0.825"
         app:layout_constraintStart_toStartOf="@+id/imageView6"
         app:srcCompat="@drawable/matcuoi1" />
 
@@ -46,19 +46,18 @@
         android:layout_height="91dp"
         android:layout_marginEnd="32dp"
         android:layout_marginBottom="8dp"
-        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/signinEmail"
         app:layout_constraintEnd_toEndOf="parent"
         app:srcCompat="@drawable/matbun" />
 
     <View
         android:id="@+id/view2"
-        android:layout_width="363dp"
-        android:layout_height="70dp"
+        android:layout_width="362dp"
+        android:layout_height="50dp"
         android:layout_marginBottom="4dp"
         android:background="@drawable/home1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
@@ -69,12 +68,12 @@
         android:text="donot have account?"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/tvRegisterLogin"
+        app:layout_constraintEnd_toStartOf="@+id/tvRegister"
         app:layout_constraintHorizontal_bias="0.779"
         app:layout_constraintStart_toStartOf="@+id/view2" />
 
     <TextView
-        android:id="@+id/tvRegisterLogin"
+        android:id="@+id/tvRegister"
         android:layout_width="91dp"
         android:layout_height="34dp"
         android:layout_marginEnd="40dp"
@@ -86,20 +85,20 @@
         app:layout_constraintEnd_toEndOf="@+id/view2" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/signinEmail"
         android:layout_width="277dp"
         android:layout_height="47dp"
         android:layout_marginBottom="16dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="Email"
-        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName2"
+        app:layout_constraintBottom_toTopOf="@+id/signinPassword"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.485"
         app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName2"
+        android:id="@+id/signinPassword"
         android:layout_width="272dp"
         android:layout_height="43dp"
         android:layout_marginBottom="16dp"
@@ -107,9 +106,9 @@
         android:inputType="textPersonName"
         android:text="Passwork"
         app:layout_constraintBottom_toTopOf="@+id/btnDNLogin"
-        app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/signinEmail"
         app:layout_constraintHorizontal_bias="0.8"
-        app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName" />
+        app:layout_constraintStart_toStartOf="@+id/signinEmail" />
 
     <TextView
         android:id="@+id/textView4"

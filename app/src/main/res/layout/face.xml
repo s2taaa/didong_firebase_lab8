@@ -8,8 +8,8 @@
 
     <View
         android:id="@+id/view3"
-        android:layout_width="641dp"
-        android:layout_height="70dp"
+        android:layout_width="353dp"
+        android:layout_height="91dp"
         android:background="@drawable/home1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -17,57 +17,71 @@
 
     <TextView
         android:id="@+id/textView9"
-        android:layout_width="204dp"
-        android:layout_height="30dp"
-        android:layout_marginTop="60dp"
+        android:layout_width="222dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="44dp"
         android:text="Please touch one"
         android:textColor="#3F51B5"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintHorizontal_bias="0.448"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageView
-        android:id="@+id/imageView10"
-        android:layout_width="139dp"
-        android:layout_height="105dp"
-        android:layout_marginTop="12dp"
-        app:layout_constraintEnd_toEndOf="@+id/textView9"
-        app:layout_constraintHorizontal_bias="0.584"
-        app:layout_constraintStart_toStartOf="@+id/textView9"
-        app:layout_constraintTop_toBottomOf="@+id/textView9"
-        app:srcCompat="@drawable/matbt" />
-
-    <ImageView
-        android:id="@+id/imageView11"
-        android:layout_width="136dp"
-        android:layout_height="109dp"
-        android:layout_marginStart="48dp"
-        android:layout_marginBottom="32dp"
-        app:layout_constraintBottom_toTopOf="@+id/view3"
-        app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/matcuoi1" />
-
-    <ImageView
-        android:id="@+id/imageView12"
-        android:layout_width="128dp"
-        android:layout_height="114dp"
-        android:layout_marginEnd="32dp"
-        android:layout_marginBottom="24dp"
-        app:layout_constraintBottom_toTopOf="@+id/view3"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:srcCompat="@drawable/matbun" />
-
     <Button
-        android:id="@+id/button"
-        android:layout_width="193dp"
-        android:layout_height="46dp"
-        android:layout_marginBottom="56dp"
-        android:background="@drawable/buttonpink"
+        android:id="@+id/btnFinish"
+        android:layout_width="224dp"
+        android:layout_height="47dp"
+        android:layout_marginBottom="68dp"
+        android:background="@drawable/btnblue"
         android:text="Finish"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="@+id/view3" />
+
+    <Button
+        android:id="@+id/btnSignout"
+        android:layout_width="112dp"
+        android:layout_height="37dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/btnblue"
+        android:text="Signout"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="@+id/view3" />
+
+    <ImageButton
+        android:id="@+id/btnAngry"
+        android:layout_width="132dp"
+        android:layout_height="113dp"
+        android:layout_marginBottom="52dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnFinish"
+        app:layout_constraintEnd_toStartOf="@+id/btnSmile"
+        app:layout_constraintHorizontal_bias="0.231"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnBored"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/angry1" />
+
+    <ImageButton
+        android:id="@+id/btnBored"
+        android:layout_width="152dp"
+        android:layout_height="132dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="104dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9"
+        app:srcCompat="@drawable/bored1" />
+
+    <ImageButton
+        android:id="@+id/btnSmile"
+        android:layout_width="143dp"
+        android:layout_height="117dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="52dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnFinish"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/smile1" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
